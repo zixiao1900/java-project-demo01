@@ -1,0 +1,7 @@
+数据存在JavaBean类中Calculator
+业务逻辑用接口CalculatorService  实现类(CalculatorService0,1,2)的方式实现
+
+controller存放控制器类
+dto存放JavaBean类
+service存放service接口和实现类
+入口类的位置放在上面几个包的外层 要去查找@controller @service 创建对象

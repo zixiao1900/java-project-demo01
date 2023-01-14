@@ -1,0 +1,8 @@
+spring-boot打包和普通流程不同
+IDEA右侧Maven lifecycle -> package双击
+在target中找 moudel2.....jar就是
+
+启动服务
+cmd: D:\JavaCodes\java-project-demo01\module3\target>java -jar ./module2-0.0.1-SNAPSHOT.jar
+然后就可以在浏览器上测试了
+http://localhost:8080/cal_2.html

@@ -1,0 +1,20 @@
+打包过程
+设置好
+1 File -> Project Structure ->
+2 Artifacts -> + -> JAR -> from modules with dependencies
+3 Module: 选择 module1
+  Main Class 选择Java002CalculatorV2 -> ok -> ok
+打包
+Build -> Build Artifacts -> Build
+生成jar包
+out/artifacts/module1_jar/module1.jar
+用过终端和jar包运行程序
+终端切到module1_jar目录下 java -jar ./module1.jar
+
+
+
+这个模块内容
+java基础
+    if else
+    for
+    method
